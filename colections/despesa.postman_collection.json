@@ -1,0 +1,39 @@
+{
+	"id": "6b8f17e1-7bad-4b6c-8cf0-618a39e6ce53",
+	"name": "despesa",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"76046253-a163-4bd5-be19-11517e4c92cc"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "76046253-a163-4bd5-be19-11517e4c92cc",
+			"name": "adiciona despesa",
+			"url": "http://localhost:8080/usuarios/1/despesas",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"valor\": 5000,\n\t\"vencimento\": \"2025-12-15\",\n\t\"tipoDespesa\": \"ALUGUEL\"\n}",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}

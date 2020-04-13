@@ -1,0 +1,204 @@
+{
+	"id": "78011a15-5a52-45b1-affe-c0978377cb0a",
+	"name": "objetivo",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"8032d9b0-71d5-4fa8-932b-4ddd98b368fc",
+		"1045e384-f5dc-4482-b573-9cf3ad085549"
+	],
+	"protocolProfileBehavior": {},
+	"folders": [
+		{
+			"id": "1045e384-f5dc-4482-b573-9cf3ad085549",
+			"name": "investimento",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "78011a15-5a52-45b1-affe-c0978377cb0a",
+			"folder": null,
+			"order": [
+				"dd55490a-7e7c-42d5-a8b2-203c03f58f14"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"id": "8032d9b0-71d5-4fa8-932b-4ddd98b368fc",
+			"name": "objetivo",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "78011a15-5a52-45b1-affe-c0978377cb0a",
+			"folder": null,
+			"order": [
+				"d723bf98-6006-460c-a685-60e249ed9f6c",
+				"7082202b-dade-40d2-a27f-8f622e6aea1e",
+				"46e7b927-112b-4db9-a994-380ef369d6b5",
+				"90998a3b-5105-4f3c-810e-158d4df1dead",
+				"40f47ef2-2e2a-4e05-bb12-fbd2c9a16ce5",
+				"96717aee-abac-4ef7-af9a-2a5064fde224",
+				"a5b621e4-54e4-47ba-88da-b83f655e2496"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"requests": [
+		{
+			"id": "40f47ef2-2e2a-4e05-bb12-fbd2c9a16ce5",
+			"name": "apresenta erro deleção",
+			"url": "",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "8032d9b0-71d5-4fa8-932b-4ddd98b368fc",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "46e7b927-112b-4db9-a994-380ef369d6b5",
+			"name": "deleta atualização",
+			"url": "http://localhost:8080/usuarios/1/objetivos/27",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "8032d9b0-71d5-4fa8-932b-4ddd98b368fc",
+			"pathVariables": {}
+		},
+		{
+			"id": "7082202b-dade-40d2-a27f-8f622e6aea1e",
+			"name": "atualiza objetivo",
+			"url": "http://localhost:8080/usuarios/321/objetivos/22",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "8032d9b0-71d5-4fa8-932b-4ddd98b368fc",
+			"rawModeData": "{\n\t\"idUsuario\": 321,\n    \"nome\": \"comprar ZUP\t\",\n    \"valorTotal\": 180000000,\n    \"numeroInvestimentos\": 10\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "90998a3b-5105-4f3c-810e-158d4df1dead",
+			"name": "Recupera",
+			"url": "http://localhost:8080/usuarios/321/objetivos/21",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "8032d9b0-71d5-4fa8-932b-4ddd98b368fc",
+			"pathVariables": {}
+		},
+		{
+			"id": "96717aee-abac-4ef7-af9a-2a5064fde224",
+			"name": "apresenta erro busca",
+			"url": "",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "8032d9b0-71d5-4fa8-932b-4ddd98b368fc",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "a5b621e4-54e4-47ba-88da-b83f655e2496",
+			"name": "altera status do investimento",
+			"url": "",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "8032d9b0-71d5-4fa8-932b-4ddd98b368fc",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "d723bf98-6006-460c-a685-60e249ed9f6c",
+			"name": "criar objetivo",
+			"url": "http://localhost:8080/usuarios/1/objetivos",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "8032d9b0-71d5-4fa8-932b-4ddd98b368fc",
+			"rawModeData": "{\n    \"nome\": \"comprar ZUP\",\n    \"valorTotal\": 200000000,\n    \"numeroInvestimentos\": 10\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "dd55490a-7e7c-42d5-a8b2-203c03f58f14",
+			"name": "cria investimento",
+			"url": "",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "1045e384-f5dc-4482-b573-9cf3ad085549",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}

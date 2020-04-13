@@ -1,0 +1,39 @@
+{
+	"id": "6955e524-79fd-44c7-9abd-fbb318596a14",
+	"name": "sugestão",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"ca7ae074-8660-4d6c-bc2e-22580e5a5f09"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "ca7ae074-8660-4d6c-bc2e-22580e5a5f09",
+			"name": "adiciona sugestão",
+			"url": "http://localhost:8080/sugestoes",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n    \"titulo\": \"adicionar integração com o banco\",\n    \"descricao\": \"seria legal ser tivesse integração direta com entiades financeiras trazendo dados da conta de lá\",\n    \"tipoSugestao\": \"MELHORIA\"\n}",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "7229ce8e-aa06-4b9b-acdc-2f9aaa5d797e",
+	"name": "avaliacão",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"790be7c3-11af-4cb9-9fc2-3dbc1cb65704"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "790be7c3-11af-4cb9-9fc2-3dbc1cb65704",
+			"name": "adiciona avaliação",
+			"url": "http://localhost:8080/usuarios/2/avaliacoes",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"notaAvaliacao\": 4,\n\t\"comentario\": \"excelente app, mas falta cadastrar pelo e-mail\"\n}",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
